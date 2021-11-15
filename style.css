@@ -1,15 +1,24 @@
-/**{
+*{
 	margin: 0;
 	padding: 0;
-}*/
+}
 body,html{
 	height: 100%;
 	width: 100%;
 	font-family: 'Bebas Neue', cursive;
 	background: url(img/bg.jpg) no-repeat center fixed ;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 h1{
 	font-size: 3rem;
+}
+.btn{	
+	border-radius: 10pt;
+	padding: 10pt 20pt;
+
 }
 
 /*Classes and IDs*/
@@ -17,8 +26,6 @@ h1{
 .btnCust{
 	background: none;
 	border: #fff solid 4pt;
-	border-radius: 10pt;
-	padding: 10pt;
 	color: #fff;
 
 }
@@ -31,30 +38,15 @@ h1{
 
 .white{
 	color:#fff;
-}
-
-#logoNavLight,#logoNavDark{
-	height: 60pt;
-	width: 100pt; 
-}
-
-#logoNavLight{
-
-}
-#logoNavDark{
 
 }
 .buffer{
 	height: 2rem;
-	width: 100%;
 }
 .logoCenter{
-	display: block;
-	float: clear;
+	display:inline-block;
 	background: url(img/logoBig.png) no-repeat center;
-	background-size: 200pt ;
-	height: 168pt;
-	width: 200pt;
-	margin: 0 auto;
-
+	background-size: cover ;
+	height: 130pt;
+	width: 155pt;
 }
