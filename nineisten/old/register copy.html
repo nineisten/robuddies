@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register an Account</title>
+</head>
+<body>
+	<header> <!-- example of an HTML5 Semantic Element-->
+  		<h1>Registration</h1>
+  	</header>
+  	<hr>
+  	<form method="GET">
+  		First Name:<input type="text" label="firstName" name="firstName" required><br>
+  		Last Name:<input type="text" label="lastName" name="lastName"><br>
+  		Email Address: <input type="email" namer="email" required><br>
+  		Birthday:<input type="date" name="birthday"><br>
+
+  		Gender:
+  			<input type="Radio" name="gender" value="Male" checked> Male
+  			<input type="Radio" name="gender" value="Female"> Female
+  			<input type="Radio" name="gender" value="Other"> Prefer not to say<br>
+  		Pets:
+  			<input type="checkbox" name="cat">Cat
+  			<input type="checkbox" name="dog">Dog
+  			<input type="checkbox" name="frog">Frog<br>
+  		Cars:
+  			<select mulltiple>
+  				<option value="volvo" name="volvo">Volvo</option>
+  				<option value="audi" name="audi">Audi</option>
+  			</select><br>
+
+  		Password:
+  			<input type="Password" name="password" min="8" required><br>
+
+  		<input type="submit" value="Register">
+  		<input type="reset" value="Clear Form">
+
+
+<!--
+Data submitted from form
+firstName=E
+&lastName=Jiones
+&birthday=2021-11-02
+&gender=Other
+&cat=on
+&dog=on
+&password=Manfidhfalkfj-->
+
+  	</form>
+</body>
+</html>

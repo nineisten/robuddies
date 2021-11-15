@@ -1,0 +1,138 @@
+@import'flexb.css'{}
+*,body{
+	background: whitesmoke;
+	margin: 0pt;
+	padding: 0pt;
+	font-family: sans-serif;
+
+}
+p{
+	margin: 15pt 0;
+}
+h1,h2,h3,h4,h5,h6{
+	text-transform:uppercase;
+	color: darkslategray;
+	text-align: center;
+	margin: 0 0 10pt 0;
+}
+input{
+	border: 1pt gray solid;
+}
+blockquote{
+	padding: 20pt;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	background: darkslategray;
+	color: white;
+}
+header img{
+	display: block;
+	margin: 10pt auto 0 auto;
+}
+content{
+	display: block;
+	padding: 30pt;
+}
+footer{
+	Padding: 30pt;
+}
+footer p{
+	text-align: center;
+	font-size: 8pt;
+}
+.topNav{
+	margin: 5pt 0 0 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+}
+.topNav li{
+	display: inline;
+}
+.topNav a{
+	padding: 10pt;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	color: black;
+}
+.topNav a.active{
+	color: darkslategray;
+	font-weight: bold;
+}
+.topNav a:hover{
+	color: darkslategray;
+	font-weight: bolder;
+}
+.formstyle{
+
+	width: 190pt;
+	padding: 30pt;
+	margin: 15pt auto 0pt;
+	border: 1px black solid;
+	background: white;
+
+}
+.formstyle label{
+	display: block;
+	text-align: center;
+	background: white;
+	font-weight: bold;
+}
+.formstyle p{
+	display: block;
+	text-align: center;
+	margin: 10pt 0 ;
+	background: white;
+	font-weight:bold ;
+}
+.formstyle input{
+	display: block;
+	text-align: center;
+	margin: 10pt auto 0pt auto;
+	padding: 10pt;
+}
+.formstyle textarea{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10pt;
+}
+.submission{
+	width: 120pt;
+	color: white;
+	background: darkslategray;
+	border: none;
+}
+.reset{
+	width: 120pt;
+	color: white;
+	background: black;
+	border: none;
+}
+.green{
+	color: darkslategray;
+	background: white`				;
+
+}
+#container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+}
+#container img{
+	width: 450px;
+	height: 300px;
+	margin: 5pt;
+	transition: all 1s;
+
+}
+#container img:hover{
+	transform: scale(1.1);
+}
+#formbox{
+	background: white;
+}
+
