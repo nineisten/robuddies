@@ -10,7 +10,6 @@ body,html{
 }
 h1{
 	font-size: 3rem;
-	font-weight: 500;
 }
 
 /*Classes and IDs*/
@@ -47,10 +46,11 @@ h1{
 }
 .buffer{
 	height: 2rem;
+	width: 100%;
 }
 .logoCenter{
 	display: block;
-	/*float: clear;*/
+	float: clear;
 	background: url(img/logoBig.png) no-repeat center;
 	background-size: 200pt ;
 	height: 168pt;
