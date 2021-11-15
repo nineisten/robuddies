@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body,html{
+	height: 100%;
+	width: 100%;
+	font-family: 'Bebas Neue', cursive;
+	background: url(img/bg.jpg) no-repeat center fixed ;
+}
+h1{
+	font-size: 3rem;
+	font-weight: 500;
+}
+
+/*Classes and IDs*/
+
+.btnCust{
+	background: none;
+	border: #fff solid 4pt;
+	border-radius: 10pt;
+	padding: 10pt;
+	color: #fff;
+
+}
+.btnCust:hover{
+	background: #fff;
+	border: white solid 4pt;
+	color: skyblue;
+
+}
+
+.white{
+	color:#fff;
+}
+
+#logoNavLight,#logoNavDark{
+	height: 60pt;
+	width: 100pt; 
+}
+
+#logoNavLight{
+
+}
+#logoNavDark{
+
+}
+.buffer{
+	height: 2rem;
+}
+.logoCenter{
+	display: block;
+	/*float: clear;*/
+	background: url(img/logoBig.png) no-repeat center;
+	background-size: 200pt ;
+	height: 168pt;
+	width: 200pt;
+	margin: 0 auto;
+
+}
