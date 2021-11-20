@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body,html{
+	height: 100%;
+	width: 100%;
+}
+
+/******************************************************
+ box classes
+******************************************************/
+.container{
+	display: grid;
+	gap: 20px;
+	grid-template-columns:repeat(auto-fill, minmax(100pt, 1fr));
+	grid-template-rows: 1fr;
+	
+
+}
+.bx{
+	cursor: pointer;
+	display: block;
+	padding: 5pt 20pt;
+	font-size: 10em;
+	border: 1pt black solid;
+	border-radius: 10pt;
+	text-align: center;
+	transition: all 0.4s linear;
+	color: white;
+}
+
+
+.bx:hover{
+  -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+/******************************************************
+ individual cell classes
+******************************************************/
+
+
+.one{
+	background-color: red;
+	grid-column: span 2;
+	grid-row: 1/3;
+	justify-self: align;
+}
+.two{
+	background-color: blue;
+}
+.three{
+	background-color: green;
+}
+.four{
+	background-color:cyan ;
+}
+.five{
+	background-color: magenta;
+}
+.six{
+	background-color: yellow;
+	color: black;
+}
+.seven{
+	background-color:black ;
+}
+.eight{
+	background-color:gray ;
+}
+.nine{
+	background-color:darkkhaki ;
+}
