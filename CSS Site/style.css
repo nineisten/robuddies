@@ -1,4 +1,4 @@
-body,html{
+html,body{
     margin: auto 0;
     padding: 0;
 
@@ -10,11 +10,36 @@ a{
     text-decoration: none;
     color: white;
 }
+footer{
+    text-align: center;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.cover{
+    width: 30rem;
+}
+.box > img{
+    width: 100%;
+
+}
+.box{
+    background-color: #444;
+    padding: 130px;
+    margin: 20px;
+}
+.grid-wrapper{
+   display: grid;
+   gap: 20px;
+   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)) 
+}
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: 100vh;
 }
 
 .main-nav{
