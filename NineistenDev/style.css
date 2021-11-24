@@ -153,14 +153,13 @@ footer{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	width: 100%;
 
 }
 
 .photo{
 	background: gray;
 	/*padding: 20pt;*/
-	height: 400px;
+	height: 350px;
 	margin: 5pt ;
 
 }
