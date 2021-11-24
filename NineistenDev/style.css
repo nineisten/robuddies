@@ -146,6 +146,21 @@ footer{
 	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)) ;
 	padding: 5pt;
 }
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+
+.photo{
+	background: gray;
+	padding: 20pt;
+	margin: 5pt;
+	border-radius: 10pt;
+
+}
 
 .box{
 	display: flex;
