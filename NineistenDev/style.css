@@ -12,7 +12,6 @@ html,body{
 }
 li{
 	list-style: none;
-	padding: 5pt;
 }
 a{
 	text-decoration: none;
@@ -37,10 +36,10 @@ h1,h2,h3,h4,h5,h6{
 	margin-bottom:5pt;
 }
 header{
-	text-align: center;
+/*	text-align: center;
 	padding: 20pt;
 	background: gray;
-	color: #fff;
+	color: #fff;*/
 
 /*	display: flex;
 	justify-content: space-around;*/
@@ -94,6 +93,10 @@ footer{
 	position:fixed;
 	top: 0;
 	width: 100%;
+}
+.buffer{
+	width: 100%;
+	height: 10pt;
 }
 @media only screen and (max-width: 1000px){
 	.main-nav{
@@ -150,6 +153,7 @@ footer{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	width: 100%;
 
 }
 
@@ -157,7 +161,8 @@ footer{
 .photo{
 	background: gray;
 	/*padding: 20pt;*/
-	border-radius: 10pt;
+	height: 400px;
+	margin: 5pt ;
 
 }
 
@@ -172,4 +177,8 @@ footer{
 	color:#000;
 	border-radius: 10pt;
 	
+}
+.heading{
+	text-align: center;
+	padding: 20pt 5pt;
 }
