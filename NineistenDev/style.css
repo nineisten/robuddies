@@ -157,7 +157,6 @@ footer{
 
 }
 
-
 .photo{
 	background: gray;
 	/*padding: 20pt;*/
@@ -175,7 +174,7 @@ footer{
 /*	width: 100px;
 	height: 100px;*/
 	color:#000;
-	border-radius: 10pt;
+	border-radius: 5pt;
 	
 }
 .heading{
