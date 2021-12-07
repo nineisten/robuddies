@@ -1,14 +1,15 @@
 /*Elements*/
-*{
+*{	
 	margin: 0;
 	padding: 0;
 }
 html,body{
-	height: 100%;
 	width: 100%;
-	magin: auto 0;
+	height: 100%;
 	padding: 0;
+	margin: auto 0;
 	font-family: sans-serif, "arial";
+
 }
 li{
 	list-style: none;
@@ -20,14 +21,15 @@ a{
 ul{
 	margin: 0;
 }
-p{}
+p{
+
+}
 h1{
 	font-size: 5rem;
 	font-weight: 400;
 }
 h4{
-	font-size: ;
-/*	font-weight: lighter;*/
+
 }
 h1,h2,h3,h4,h5,h6{
 	text-transform: uppercase;
@@ -59,32 +61,31 @@ footer{
 }
 .block{
 	width: 100%;
-	/*border:1px gray solid;*/
 	transition: all 0.4s linear;
 
 }
 
 .main-nav{
-	display:flex;
+	display:inline-flex;
 	align-items: center;
-	gap:10pt;
+
 	font-size: 0.8em;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight:500;
 }
-.main-nav a:hover {
+.main-nav > li{
+	padding: 5pt;
+}
+.main-nav > li  a:hover {
 	color: darkseagreen;
-
 }
 .headerLogo{
-	display: flex;
-	align-items:;
+	display:flex;
 	background: url("img/logo.png") repeat center;
 	background-size: contain;
 	width:130pt ;
 	height:29pt;
-	gap: 0;
 }
 .push{
 	margin-left: auto;
@@ -98,6 +99,10 @@ footer{
 	width: 100%;
 	height: 10pt;
 }
+
+
+/* phone screens*/
+
 @media only screen and (max-width: 1000px){
 	.main-nav{
 		font-size: 0.6rem;
@@ -123,7 +128,7 @@ footer{
 /*classes*/
 .bigScreen{
 	display:flex;
-	flex-wrap:wrap ;
+
 	justify-content: center;
 	align-items:center;
 	background: gray;
@@ -131,6 +136,7 @@ footer{
 	flex-direction: column;
 	text-align: center;
 	padding:0px 10px;
+	text-transform: uppercase;
 
 }	
 .bigScreen > h1, .bigScreen > h4 {
@@ -140,29 +146,26 @@ footer{
 }
 .bigScreen {
 	/*color: #fff;*/
-	text-transform: uppercase;
+
 }
-.tiles{
-	display: grid;
-	grid-template-columns:;
-	gap: 5pt;
-	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)) ;
-	padding: 5pt;
-}
+
 .gallery{
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	gap: 5pt;
+	grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
 	justify-content: center;
 
 }
 
 .photo{
 	background: gray;
-	/*padding: 20pt;*/
-	height: 350px;
-	margin: 5pt ;
+}
+
+.photo > img{
+	width: 100%;
 
 }
+
 
 .box{
 	display: flex;
@@ -179,4 +182,7 @@ footer{
 .heading{
 	text-align: center;
 	padding: 20pt 5pt;
+}
+.cpyrt{
+	font-size: .03rem;
 }

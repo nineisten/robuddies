@@ -1,0 +1,183 @@
+
+/*elements*/
+
+*,html{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100%;
+	width: 100%;
+	margin: auto 0;
+	font-family: sans-serif, 'arial';
+}
+ul,ol{
+	text-align: center;
+}
+li{
+	list-style: none;
+	padding: 5pt;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+/*classes*/
+
+
+/*****************************************************************
+ Header w/logo and nav bar
+ *****************************************************************/
+
+.hd{
+
+}
+.hdLogo{
+	display:flex;
+	height: 40px;
+	width: 180px;
+	background:black ;
+	background: url('img/logo.png');
+	background-size: contain;
+}
+.navBar{
+	background:white;
+}
+.navList{
+	text-align: center;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	font-size: 0.7rem;
+
+}
+.navList > li a{
+	text-transform: uppercase;
+	font-size: 0.9rem;
+
+}
+.navList > li a:hover{
+	color: darkslategray;
+}
+.push{
+	margin-left: auto;
+}
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.stickyNote{
+	display: flex;
+	justify-content: center;
+	background: greenyellow;
+	color: blue;
+	padding: 10pt 0;
+	text-transform:uppercase;
+}
+
+/*****************************************************************
+  "JumboTron"
+ *****************************************************************/
+
+
+.bigScrn{
+	display:flex;
+	height: 75vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: black;
+	color: white;
+	text-align: center;
+}
+.bigScrn > h1{
+	text-transform: uppercase;
+	font-size: 4rem;
+
+}
+.bigScrn > h4{
+	text-transform: uppercase;
+}
+
+
+/*****************************************************************
+Tiles and tables
+ *****************************************************************/
+
+.cntnt{
+
+}
+.tiles{
+	display: grid;
+	grid-template-columns: repeat( auto-fill, minmax(350px, 1fr));
+	padding: 5pt;
+	gap: 5pt;
+
+}
+
+.box > img{
+	width: 100%;
+
+}
+
+.box{
+	background: darkslategray;
+	padding:50px;
+
+}
+.ft{
+	text-align: center;
+	padding: 20pt 0;
+	background:black;
+
+
+
+}
+.cpyrt{
+	font-size: .6rem;
+	text-transform: uppercase;
+	color: white;
+}
+.bfrP{
+
+}
+
+
+/*****************************************************************
+ Viewport adjustments for mobile and tablet
+ syntax:  @media only screen and ();
+ *****************************************************************/
+/*720px */
+@media only screen and (max-width: 800px){
+	.hdLogo{
+		background:url('img/9logo.png');
+		background-size: contain;
+		height: 40px;
+		width: 40px;
+	}
+	.bigScrn{
+		height: 100vh;
+	}
+
+}
+
+/*600px */
+@media only screen and (max-width: 600px){
+	.hdLogo{
+		background:url('img/9logo.png');
+		background-size: contain;
+		height: 40px;
+		width: 40px;
+
+	}
+	.navList > li a{ 
+		font-size: 0.7rem;
+
+	}
+	
+}
+.modu{
+	width: 100%;
+}	
