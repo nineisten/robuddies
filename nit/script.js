@@ -1,46 +1,32 @@
-var checkDriveAge = function(){
-	var driveAge=prompt('How old are you?');
-		if (driveAge > 16 ){
-			alert('Thank you for verifying your age. Drive safely.');
-		}
-		else if (Number(driveAge) === 16) {
-			alert('Ahh Haaaa, you new to this! Drive Safely my G.');
-		}
-		else {
-			alert('Driver denied! YOU A BABY!!!I just called ya parents.');
-		}
+var todos = [
+
+	'Wake Up',
+	'Drink Water',
+	'Make Bed',
+	'Drink Water',
+	'Eat Pussy',
+	'drink water',
+
+];
+for ( var i=0; i < todos.length; i++)
+{
+console.log(todos[i],i);
 }
 
-// function declaration
+todos.forEach(function(todo,i){
+	console.log(todo,i);
+})
 
+// var counterOne = 20;
+// while (counterOne > 0 ) {
+// 	console.log(counterOne);
+// 	counterOne--
+// }
+// var counterTwo = 10;
 
-function checkDriveAge2(){
-var driveAge=prompt('How old are you?');
-		if (driveAge > 16 ){
-			alert('Thank you for verifying your age. Drive safely.');
-		}
-		else if (Number(driveAge) === 16) {
-			alert('Ahh Haaaa, you new to this! Drive Safely my G');
-		}
-		else {
-			alert('Driver denied! YOU A BABY!!! I just called ya parents.');
-		}
-}
+// do {
+// 	console.log(counterTwo);
+// 	counterTwo--;
 
-function checkDriveAge3 (driveAge){
-		if (driveAge > 16 ){
-			return('Thank you for verifying your age. Drive safely.');
-		}
-		else if (Number(driveAge) === 16) {
-			return('Ahh Haaaa, you new to this! Drive Safely my G.');
-		}
-		else {
-			return('Driver denied! YOU A BABY!!! I just called ya parents.');
-		}
-
-}
-
-var fruits = [ "Banana", "Apples", "Oranges", "Blueberries"];
-
-var fruits2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
+// }while (counterTwo > 0);
 
