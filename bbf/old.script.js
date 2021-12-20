@@ -35,6 +35,7 @@ var passPrompt = prompt('Enter your Username');
 // var logIn = function(user,pass){
 // 	if (user === database[1].userName && 
 // 		pass === database[1].passWord){ 
+		
 // 		console.log(newsfeed);
 
 // 	}else{
