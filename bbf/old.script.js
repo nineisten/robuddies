@@ -30,12 +30,11 @@ timeline:'Hi. my names Ted.'
 }];
 
 var userPrompt = prompt('Enter your Username');
-var passPrompt = prompt('Enter your Password');
+var passPrompt = prompt('Enter your Username');
 
 // var logIn = function(user,pass){
 // 	if (user === database[1].userName && 
 // 		pass === database[1].passWord){ 
-		
 // 		console.log(newsfeed);
 
 // 	}else{
@@ -60,4 +59,3 @@ function logIn(user,pass){
 	}
 }
 logIn(userPrompt,passPrompt);
-
