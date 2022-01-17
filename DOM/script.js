@@ -26,7 +26,7 @@ function genList(){
 
 	//complete task button
 	fin.addEventListener('click',function(){
-		fin.parentElement.classList.toggle('done')
+		fin.parentElement.classList.add('done')
 	});
 	//delete task button
 	del.addEventListener('click',function(){
@@ -57,7 +57,7 @@ function exListDel(){
 		exDel.parentElement.remove();
 }
 function exListFin(){
-	exFin.parentElement.classList.toggle('done');
+	exFin.parentElement.classList.add('done');
 }
 
 //run functions
