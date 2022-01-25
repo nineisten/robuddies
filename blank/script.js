@@ -54,7 +54,7 @@ function runSplit(){
 function percEven(){
 	let splitter = percSplit(perc1(),perc2());
 	let even = perc1() === perc2() ? "You both have even shares."
-				:"From the looks of it, the person with "+ splitter + " has the Lions Share";
+				:"From the looks of it, the person with "+ splitter + "%" + " has the Lion's Share";
 return even
 };
 function percSplit(a,b){
