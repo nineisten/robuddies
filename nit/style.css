@@ -36,7 +36,7 @@ a{
 .hdLogo{
 	display:flex;
 	height: 40px;
-	width: 180px;
+	width: 2px;
 	background:black ;
 	background: url('img/logo.png');
 	background-size: contain;

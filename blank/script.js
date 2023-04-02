@@ -1,71 +1,53 @@
 let percInOne = document.getElementById('partnerOne');
 let percInTwo = document.getElementById('partnerTwo');
 let pushP = document.querySelector('BUTTON.pushPercs');
-let div = document.querySelector('div.msg')
+let div = document.querySelector('div.msg');
 
-function hundoSplit(){
+const hundoSplit = () =>{
 	let hundo = 100;
 	let a
 	let b
-
 	if (a = hundo - changer()){
 		return a;
 	}
 };
-
-
-function inputValAdj(){
-
-
+const inputValAdj = ()=>{
 		if (changer() === perc1() && changer() > 0){
 		percInTwo.value = hundoSplit();
 		}
 		else{
 		percInOne.value = hundoSplit();
 		}
-
-
 };
-function changer(){
-	var change
-
+const changer = ()=>{
+	let change
   if (event.target.id === 'partnerOne'){ 
   	change = perc1();
-
   }else{
   	change = perc2();
   }
   return change;
 };
-
-
-function perc1(){
-	return parseInt(percInOne.value);
-};
-
-function perc2(){
-	return parseInt(percInTwo.value);
-};
-function runSplit(){
+const perc1 = ()=>parseInt(percInOne.value);
+const perc2 = ()=>parseInt(percInTwo.value);
+const runSplit = ()=>{
 	if (perc1() > 0){
 		buildCallOut();
 	}
 };
-function percEven(){
+const percEven = ()=>{
 	let splitter = percSplit(perc1(),perc2());
-	let even = perc1() === perc2() ? "You both have even shares."
-				:"From the looks of it, the person with "+ splitter + "%" + " has the Lion's Share";
+	let even = perc1() === perc2() ? `You both have even shares`
+				:`From the looks of it, the person with ${splitter}% has the Lion's Share`;
 return even
 };
-function percSplit(a,b){
+const percSplit=(a,b)=>{
 	let split = a > b ? a:b;
 	return split
 };
-
-function buildCallOut(){
-	var callOut = div.textContent = percEven();
+const buildCallOut = ()=>{
+	let callOut = div.textContent = percEven();
 	return callOut;
-};
-
+} zzzz 
 pushP.addEventListener('click', runSplit);
 percInOne.addEventListener('change',inputValAdj)

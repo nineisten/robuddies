@@ -1,0 +1,26 @@
+arrays
+
+Arrays are "list like objects".
+single objects with multiple values. so an array can be stored in a variable like a single value.
+
+arrays work well with loops.
+arrays help save space and resource by being able to put multiple values in contaners
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
