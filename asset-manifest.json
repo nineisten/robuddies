@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/robuddies/static/css/main.91f92998.css",
-    "main.js": "/robuddies/static/js/main.69da0d46.js",
-    "static/js/787.7c837d6d.chunk.js": "/robuddies/static/js/787.7c837d6d.chunk.js",
-    "static/media/SEGA.woff": "/robuddies/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
-    "index.html": "/robuddies/index.html",
-    "main.91f92998.css.map": "/robuddies/static/css/main.91f92998.css.map",
-    "main.69da0d46.js.map": "/robuddies/static/js/main.69da0d46.js.map",
-    "787.7c837d6d.chunk.js.map": "/robuddies/static/js/787.7c837d6d.chunk.js.map"
+    "main.css": "/nineisten/nineisten.github.io/robuddies/static/css/main.370743c4.css",
+    "main.js": "/nineisten/nineisten.github.io/robuddies/static/js/main.761ae53f.js",
+    "static/js/787.7c837d6d.chunk.js": "/nineisten/nineisten.github.io/robuddies/static/js/787.7c837d6d.chunk.js",
+    "static/media/SEGA.woff": "/nineisten/nineisten.github.io/robuddies/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
+    "index.html": "/nineisten/nineisten.github.io/robuddies/index.html",
+    "main.370743c4.css.map": "/nineisten/nineisten.github.io/robuddies/static/css/main.370743c4.css.map",
+    "main.761ae53f.js.map": "/nineisten/nineisten.github.io/robuddies/static/js/main.761ae53f.js.map",
+    "787.7c837d6d.chunk.js.map": "/nineisten/nineisten.github.io/robuddies/static/js/787.7c837d6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91f92998.css",
-    "static/js/main.69da0d46.js"
+    "static/css/main.370743c4.css",
+    "static/js/main.761ae53f.js"
   ]
 }
