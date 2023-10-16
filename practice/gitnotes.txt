@@ -1,4 +1,0 @@
-Git is a "source control" program
-it alows multiple people to work on the same file from different locations.
-
-pull request:
